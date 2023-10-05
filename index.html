@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Project] Web design Agency</title>
+    <style>
+        body {
+            background: rgb(42, 42, 51);
+            background: linear-gradient(131deg, rgba(42, 42, 51, 1) 0%, rgba(117, 186, 193, 1) 28%, rgba(0, 212, 255, 1) 93%);
+            display: flex;
+            flex-direction: column;
+            margin: 20px 20px 20px 20px;
+            min-height: 100%;
+        }
+
+        .container {
+            
+            flex: 1;
+        }
+
+        .multi-head {
+            font-size: 7rem;
+            font-style: bold;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-image: url(https://c4.wallpaperflare.com/wallpaper/617/661/158/color-burst-reflection-hd-wallpaper-preview.jpg);
+            background-size: cover;
+            background-position: center;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        .flex{
+            display: flex;
+            flex-direction: row-reverse;
+            width: 100%;
+            justify-items: center;
+        }
+        .flex h2{
+            font-size: 2em;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            display: inline-block;
+        }
+        .flexin{
+            width: 100%;
+            justify-items: center;
+        }
+        .flexin h2{
+            font-size: 2em;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .grid {
+            width: 100%;
+            justify-items: center;
+        }
+        .left{
+            float: left;
+        }
+        .right{
+            float: right;
+        }
+
+        .grid img {
+            float: left;
+           
+        }
+        footer{
+            text-align: right;
+            color: solid black;
+        }
+        @media (max-width:709px){
+            .multi-head {
+            font-size: 3rem;
+            font-style: bold;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-image: url(https://c4.wallpaperflare.com/wallpaper/617/661/158/color-burst-reflection-hd-wallpaper-preview.jpg);
+            background-size: cover;
+            background-position: center;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        .grid {
+            width: 100%;
+            justify-items: center;
+        }
+        .left{
+            float: left;
+        }
+        .right{
+            float: right;
+        }
+
+        .grid img {
+            float: left;
+            height: 100px;
+
+           
+        }
+        .grid p{
+            font-size: 14px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .flex h2{
+            font-size: 20px;
+            
+        }
+        .flexin h2{
+            font-size: 20px;
+            
+        }
+        .flex p{
+            font-size: 12px;
+        }
+        .flexin p{
+            font-size: 13px;
+        }
+        }
+    </style>
+</head>
+
+<body>
+   
+    <div class="container">
+        <h1 class="multi-head">
+            This is my first responsive website project using media query.
+        </h1>
+
+    </div>
+    <div class="left grid">
+        <img src="Icon.ico" alt="Random">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus aliquid dolor veniam eum, similique fugiat
+            optio quo! Cumque recusandae ipsa, est quasi atque ea sapiente officiis, rerum quae harum temporibus quos
+           </p>
+    </div>
+    <div class="right grid">
+        <img src="Icon.ico" alt="Random">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus aliquid dolor veniam eum, similique fugiat
+            ?</p>
+    </div>
+    <div class="grid flex">
+        <img src="FarCry3.ico" alt="happiness">
+        <h2>
+            This is happiness!
+        </h2>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus dignissimos inventore eum vero. Aperiam, voluptatem cum voluptate provident voluptas odio labore id inventore dolore quidem!
+        </p>
+    </div>
+    <div class="grid flexin">
+        <img src="FarCry3.ico" alt="happiness">
+        <h2>
+            This is happiness!
+        </h2>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus dignissimos inventore eum vero. Aperiam, voluptatem cum voluptate provident voluptas odio labore id inventore dolore quidem!
+        </p>
+    </div>
+    <footer>
+        &copy; Hasan Hashmi
+    </footer>
+</body>
+
+</html>
